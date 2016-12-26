@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D203AC21E014EAE004197EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D203AC11E014EAE004197EB /* main.m */; };
+		0D203ACB1E014F5A004197EB /* requestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D203ACA1E014F5A004197EB /* requestModel.m */; };
+		0D203ACE1E014FAF004197EB /* handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D203ACD1E014FAF004197EB /* handler.m */; };
+		0D203AD11E01504A004197EB /* dinnerFeeRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D203AD01E01504A004197EB /* dinnerFeeRequestModel.m */; };
+		0D203ADA1E0150E2004197EB /* projectManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D203AD51E0150E2004197EB /* projectManagerHandler.m */; };
+		0D203ADB1E0150E2004197EB /* depManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D203AD71E0150E2004197EB /* depManagerHandler.m */; };
+		0D203ADC1E0150E2004197EB /* generalManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D203AD91E0150E2004197EB /* generalManagerHandler.m */; };
+		0D203ADF1E0152F4004197EB /* travelFeeRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D203ADE1E0152F4004197EB /* travelFeeRequestModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D203ABC1E014EAE004197EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D203ABE1E014EAE004197EB /* 责任链模式多种请求 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "责任链模式多种请求"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D203AC11E014EAE004197EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D203AC91E014F5A004197EB /* requestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = requestModel.h; sourceTree = "<group>"; };
+		0D203ACA1E014F5A004197EB /* requestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = requestModel.m; sourceTree = "<group>"; };
+		0D203ACC1E014FAF004197EB /* handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handler.h; sourceTree = "<group>"; };
+		0D203ACD1E014FAF004197EB /* handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = handler.m; sourceTree = "<group>"; };
+		0D203ACF1E01504A004197EB /* dinnerFeeRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dinnerFeeRequestModel.h; sourceTree = "<group>"; };
+		0D203AD01E01504A004197EB /* dinnerFeeRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dinnerFeeRequestModel.m; sourceTree = "<group>"; };
+		0D203AD41E0150E2004197EB /* projectManagerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = projectManagerHandler.h; sourceTree = "<group>"; };
+		0D203AD51E0150E2004197EB /* projectManagerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = projectManagerHandler.m; sourceTree = "<group>"; };
+		0D203AD61E0150E2004197EB /* depManagerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = depManagerHandler.h; sourceTree = "<group>"; };
+		0D203AD71E0150E2004197EB /* depManagerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = depManagerHandler.m; sourceTree = "<group>"; };
+		0D203AD81E0150E2004197EB /* generalManagerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = generalManagerHandler.h; sourceTree = "<group>"; };
+		0D203AD91E0150E2004197EB /* generalManagerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = generalManagerHandler.m; sourceTree = "<group>"; };
+		0D203ADD1E0152F4004197EB /* travelFeeRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = travelFeeRequestModel.h; sourceTree = "<group>"; };
+		0D203ADE1E0152F4004197EB /* travelFeeRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = travelFeeRequestModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D203ABB1E014EAE004197EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D203AB51E014EAD004197EB = {
+			isa = PBXGroup;
+			children = (
+				0D203AC01E014EAE004197EB /* 责任链模式多种请求 */,
+				0D203ABF1E014EAE004197EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D203ABF1E014EAE004197EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D203ABE1E014EAE004197EB /* 责任链模式多种请求 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D203AC01E014EAE004197EB /* 责任链模式多种请求 */ = {
+			isa = PBXGroup;
+			children = (
+				0D203AC11E014EAE004197EB /* main.m */,
+				0D203AD31E015064004197EB /* handler */,
+				0D203AD21E01504E004197EB /* Model */,
+			);
+			path = "责任链模式多种请求";
+			sourceTree = "<group>";
+		};
+		0D203AD21E01504E004197EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D203AC91E014F5A004197EB /* requestModel.h */,
+				0D203ACA1E014F5A004197EB /* requestModel.m */,
+				0D203ACF1E01504A004197EB /* dinnerFeeRequestModel.h */,
+				0D203AD01E01504A004197EB /* dinnerFeeRequestModel.m */,
+				0D203ADD1E0152F4004197EB /* travelFeeRequestModel.h */,
+				0D203ADE1E0152F4004197EB /* travelFeeRequestModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0D203AD31E015064004197EB /* handler */ = {
+			isa = PBXGroup;
+			children = (
+				0D203ACC1E014FAF004197EB /* handler.h */,
+				0D203ACD1E014FAF004197EB /* handler.m */,
+				0D203AD41E0150E2004197EB /* projectManagerHandler.h */,
+				0D203AD51E0150E2004197EB /* projectManagerHandler.m */,
+				0D203AD61E0150E2004197EB /* depManagerHandler.h */,
+				0D203AD71E0150E2004197EB /* depManagerHandler.m */,
+				0D203AD81E0150E2004197EB /* generalManagerHandler.h */,
+				0D203AD91E0150E2004197EB /* generalManagerHandler.m */,
+			);
+			name = handler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D203ABD1E014EAE004197EB /* 责任链模式多种请求 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D203AC51E014EAE004197EB /* Build configuration list for PBXNativeTarget "责任链模式多种请求" */;
+			buildPhases = (
+				0D203ABA1E014EAE004197EB /* Sources */,
+				0D203ABB1E014EAE004197EB /* Frameworks */,
+				0D203ABC1E014EAE004197EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "责任链模式多种请求";
+			productName = "责任链模式多种请求";
+			productReference = 0D203ABE1E014EAE004197EB /* 责任链模式多种请求 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D203AB61E014EAD004197EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mia;
+				TargetAttributes = {
+					0D203ABD1E014EAE004197EB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0D203AB91E014EAD004197EB /* Build configuration list for PBXProject "责任链模式多种请求" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D203AB51E014EAD004197EB;
+			productRefGroup = 0D203ABF1E014EAE004197EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D203ABD1E014EAE004197EB /* 责任链模式多种请求 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D203ABA1E014EAE004197EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D203AC21E014EAE004197EB /* main.m in Sources */,
+				0D203ACB1E014F5A004197EB /* requestModel.m in Sources */,
+				0D203ADF1E0152F4004197EB /* travelFeeRequestModel.m in Sources */,
+				0D203ADB1E0150E2004197EB /* depManagerHandler.m in Sources */,
+				0D203AD11E01504A004197EB /* dinnerFeeRequestModel.m in Sources */,
+				0D203ACE1E014FAF004197EB /* handler.m in Sources */,
+				0D203ADC1E0150E2004197EB /* generalManagerHandler.m in Sources */,
+				0D203ADA1E0150E2004197EB /* projectManagerHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D203AC31E014EAE004197EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D203AC41E014EAE004197EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D203AC61E014EAE004197EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D203AC71E014EAE004197EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D203AB91E014EAD004197EB /* Build configuration list for PBXProject "责任链模式多种请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D203AC31E014EAE004197EB /* Debug */,
+				0D203AC41E014EAE004197EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D203AC51E014EAE004197EB /* Build configuration list for PBXNativeTarget "责任链模式多种请求" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D203AC61E014EAE004197EB /* Debug */,
+				0D203AC71E014EAE004197EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D203AB61E014EAD004197EB /* Project object */;
+}
